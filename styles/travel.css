@@ -192,6 +192,58 @@ border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 
 }
+
+/* LOAN SECTION */
+
+.loan-text{
+   
+    width: 540px;
+    height: 540px;
+    
+    
+    
+    background: rgba(251, 181, 99, 0.05);
+}
+.loan-img{
+    width: 540px;
+    height: 540px;
+    
+
+background: rgba(251, 181, 99, 0.05);
+    
+}
+.loan-img1 {
+    width: 200px;
+    height: 200px;
+    
+    position: relative; top: 200px;
+    position: relative; left: 90px;
+
+}
+.loan{
+    display: flex;
+    position: relative; top: 70px; 
+    position: relative; left: 350px;
+    
+    
+}
+
+.loan-text h1{
+    font-size: 50px;
+}
+.loan-text p{
+    font-size: 32;
+}
+.btn1{
+    width: 150px;
+    height: 50px;
+    background-color: darkcyan;
+    color: #FFF;
+    position: relative; left: 150px;
+    position: relative; top: 40px;
+    
+}
+
 @media screen and (max-width: 600px) {
     .headimg-1{
         font-size: 22px;
@@ -257,6 +309,13 @@ height: 289px;
         width: 335px;
 height: 289px;
 
+    }
+    .loan{
+         flex-direction: column;
+        position: relative; top: 300px; 
+         position: relative; left: 20px;
+        
+        
     }
    
 
