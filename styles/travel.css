@@ -244,6 +244,66 @@ background: rgba(251, 181, 99, 0.05);
     
 }
 
+/* NEWSLETTER SECTION */
+.news{
+    display: flex;
+    margin-top: 5%;
+}
+
+.news-up{
+    margin-left: 20%;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+width: 474px;
+height: 422px;
+}
+
+.news-down{
+   margin-left: 1.5%;
+   
+}
+.news-up p{
+    position: relative; left: 18px;
+    
+    border-bottom: 2px solid rgb(216, 208, 208);
+    width: 350px;
+    height: 52px;
+}
+.intext{
+    position: relative; top: 10px;
+    position: relative; left: 18px;
+    width: 350px;
+    height: 30px;
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+
+.inmail{
+    position: relative; top: 40px;
+    position: relative; left: 15px;
+    width: 350px;
+    height: 30px;
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+   
+
+}
+.insubmit{
+    width: 350px;
+    height: 30px;
+    position: relative; top: 70px;
+    position: relative; left: 15px;
+    border-radius: 8px;
+background: #FF5400;
+}
+
+.newsimg{
+    width: 310px;
+    height: 112px;
+    position: relative; left: 370px;
+    transform: rotate(-35deg);
+    position: relative; top: -150px;
+}
 @media screen and (max-width: 600px) {
     .headimg-1{
         font-size: 22px;
@@ -317,7 +377,49 @@ height: 289px;
         
         
     }
-   
+    .news{
+        flex-direction: column;
+    }
+   .news-up{
+    width: 335px;
+height: 353px;
+position: relative; top: 300px;
+   }
+
+   .newsimg1{
+    width: 335px;
+height: 353px;
+position: relative; top: 400px;
+position: relative; left: 98px;
+   }
+   .intext{
+    width: 288px;
+    height: 30px;
+    position: relative; top: -20px;
+   }
+   .inmail{
+    width: 288px;
+    height: 30px;
+    position: relative; top: -40px;
+
+   }
+   .insubmit{
+    width: 288px;
+    height: 30px;
+    position: relative; top: -50px;
+   }
+   .news-up p{
+    width: 270px;
+    height: 48px;
+    position: relative; top: 0px;
+    padding-bottom: 30px;
+   }
+   .newsimg{
+    width: 214px;
+    height: 79px;
+    position: relative; top: 350px;
+    position: relative; left: -119px;
+   }
 
 
     
