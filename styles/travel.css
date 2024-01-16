@@ -5,7 +5,8 @@
 .sec-1{
     display: flex;
     gap: 24rem;
-    margin-left: 16.88rem;
+    /* margin-left: 16.88rem; */
+    margin-left: 14.06vw;
 }
 .img-1{
     display: flex;
@@ -14,12 +15,14 @@
 }
 .img-2{
     position: relative; top: 1.07rem;
-    width: 3rem;
-    height: 3.5rem;
+    /* width: 2.5vw; */
+    /* height: 3.5rem; */
+    width: 48px;
+    height: 56px;
 
 }
 h3{
-    margin-left: 1.6rem;
+    margin-left: 1.3328vw;
 }
 
 .list-1{
@@ -31,7 +34,7 @@ h3{
 
 nav li{
     list-style: none;
-    margin-right: 2.75rem;
+    margin-right: 2.3vw;
 }
 nav a{
     text-decoration: none;
@@ -54,9 +57,9 @@ nav a{
     position: relative; top: -13.75rem;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0)), url('../Images/Group\ 13\ \(1\)\ \(1\).png'); 
     /* width: 50%; */
-     width: 74.125rem; 
+     width: 61.75vw; 
     height: 31.25rem;
-    margin-left: 18.75rem;
+    margin-left: 15.62vw;
     border-radius: 1.6rem;
     color: #fff;
     
@@ -64,10 +67,10 @@ nav a{
 .headimg-1{
     color: #FFF;
 font-family: Mulish;
-font-size: 4rem;
+font-size: 64px;
 
 font-weight: 800;
-position: relative; top: 8.125rem;
+position: relative; top: 6.77vw;
 
 
 }
@@ -75,28 +78,109 @@ position: relative; top: 8.125rem;
     color: #FFF;
 text-align: center;
 font-family: Mulish;
-font-size: 1rem;
+font-size: 16px;
 
 font-weight: 400;
-position: relative; top: 7.5rem;
+position: relative; top: 6.2475vw;
 
 
 }
 .form-1{
-    position: relative; top: 9.375rem;
-    width: 50rem;
-    height: 3.125rem;
+    position: relative; top: 7.745vw;
+    width: 41.65vw;
+    height: 2.6vw;
    background-color: rgb(255, 255, 255, 0.5);
-    padding-top: 3.125rem;
-    position: relative; left: 11.6rem;
+    padding-top: 2.6vw;
+    position: relative; left: 9.6628vw;
     
 }
 .try{
     background-color: #FF5400;
     
 }
+/* POPULAR TOUR SECTION */
+.popular{
+     margin-left: 15%; 
+    
+    display: flex;
+    gap: 80px;
+}
+.popular-1{
+      width: 540px;  
+     height: 540px;  
+    /* width: 54vw; */
+   /* height: 540px; */
+ 
+    
+}
+
+.popular-1 h2, p, ul{
+    margin-top: 40px;
+} 
+.popular-1 h2{
+    color: #131318;
+
+
+font-size: 40px;
+
+font-weight: 800;
+
+}
+.btn{
+    margin-top: 40px;
+    width: 174px;
+height: 52px;
+background-color: #FF5400;
+border-radius: 10px;
+color: #FFF;
+font-weight: 800;
+}
+.destination{
+    text-align: center;
+}
 
 @media screen and (max-width: 600px) {
+    .headimg-1{
+        font-size: 22px;
+    }
+    .headimg-2{
+        font-size: 14px;
+    }
+    .form-1{
+        width: 288px;
+        height: 288px;
+      
+    }
+    input{
+        margin-top: 30px;
+    }
+    img-2{
+        width: 29px;
+        height: 36px;
+    }
+
+    .popular{
+        flex-direction: column;
+    }
+    .popular-1{
+        margin-left: -10%;
+    }
+    .popular-2{
+        width: 54vw;
+        
+        position: relative; top: 150px;
+        margin-left: -10%;
+    }
+    .destination{
+        position: relative; top: 200px;
+    }
+    .img1{
+        width: 335px;
+        height: 176px;
+    }
+    
+   
+
 
     
 }
